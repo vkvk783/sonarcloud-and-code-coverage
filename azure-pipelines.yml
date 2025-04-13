@@ -1,4 +1,5 @@
 trigger:
+
   - main
 
 pool:
@@ -33,8 +34,8 @@ steps:
 # Step 4: SonarCloud Analysis Preparation
 - task: SonarCloudPrepare@2
   inputs:
-    SonarCloud: 'Sonar Cloud'
-    organization: 'demoaks'
+    SonarCloud: 'SonarQube Cloud'
+    organization: 'vkdevops'
     scannerMode: 'CLI'
     configMode: 'manual'
     cliProjectKey: 'vkdevops_java-app'
