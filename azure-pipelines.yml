@@ -32,7 +32,7 @@ steps:
     failIfCoverageEmpty: true
 
 # Step 4: SonarCloud Analysis Preparation
-- task: SonarCloudPrepare@2
+- task: SonarCloudPrepare@3
   inputs:
     SonarCloud: 'SonarQube Cloud'
     organization: 'vkdevops'
