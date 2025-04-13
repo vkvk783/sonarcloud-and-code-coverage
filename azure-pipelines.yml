@@ -36,7 +36,7 @@ steps:
   inputs:
     SonarCloud: 'SonarQube Cloud'
     organization: 'vkdevops'
-    scannerMode: 'CLI'
+    scannerMode: 'other'
     configMode: 'manual'
     cliProjectKey: 'vkdevops_java-app'
     cliProjectName: 'java-app'
