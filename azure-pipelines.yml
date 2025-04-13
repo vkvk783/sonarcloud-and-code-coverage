@@ -37,8 +37,8 @@ steps:
     organization: 'demoaks'
     scannerMode: 'CLI'
     configMode: 'manual'
-    cliProjectKey: 'demoaks_testing-app'
-    cliProjectName: 'testing-app'
+    cliProjectKey: 'vkdevops_java-app'
+    cliProjectName: 'java-app'
     cliSources: 'sonarcloud-sample-project/src/main/java'
     extraProperties: |
       sonar.junit.reportPaths=target/surefire-reports
